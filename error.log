@@ -1,0 +1,38 @@
+{
+  metadata: Error: Access denied. No token provided
+      at auth (file:///C:/Users/chris/OneDrive/Desktop/ConquerBlocks/NodeJS/API%20rest/middlewears/Auth.js:7:17)
+      at Layer.handle [as handle_request] (C:\Users\chris\OneDrive\Desktop\ConquerBlocks\NodeJS\API rest\node_modules\express\lib\router\layer.js:95:5)
+      at next (C:\Users\chris\OneDrive\Desktop\ConquerBlocks\NodeJS\API rest\node_modules\express\lib\router\route.js:149:13)
+      at Route.dispatch (C:\Users\chris\OneDrive\Desktop\ConquerBlocks\NodeJS\API rest\node_modules\express\lib\router\route.js:119:3)
+      at Layer.handle [as handle_request] (C:\Users\chris\OneDrive\Desktop\ConquerBlocks\NodeJS\API rest\node_modules\express\lib\router\layer.js:95:5)
+      at C:\Users\chris\OneDrive\Desktop\ConquerBlocks\NodeJS\API rest\node_modules\express\lib\router\index.js:284:15
+      at Function.process_params (C:\Users\chris\OneDrive\Desktop\ConquerBlocks\NodeJS\API rest\node_modules\express\lib\router\index.js:346:12)
+      at next (C:\Users\chris\OneDrive\Desktop\ConquerBlocks\NodeJS\API rest\node_modules\express\lib\router\index.js:280:10)
+      at Function.handle (C:\Users\chris\OneDrive\Desktop\ConquerBlocks\NodeJS\API rest\node_modules\express\lib\router\index.js:175:3)
+      at router (C:\Users\chris\OneDrive\Desktop\ConquerBlocks\NodeJS\API rest\node_modules\express\lib\router\index.js:47:12) {
+    status: 401
+  },
+  level: 'error',
+  message: 'Access denied. No token provided',
+  timestamp: '2026-04-14T22:10:00.884Z'
+}
+{
+  metadata: JsonWebTokenError {
+    name: 'JsonWebTokenError',
+    message: 'jwt malformed',
+    status: 400
+  },
+  level: 'error',
+  message: 'jwt malformed',
+  timestamp: '2026-04-14T23:29:11.246Z'
+}
+{
+  metadata: JsonWebTokenError {
+    name: 'JsonWebTokenError',
+    message: 'jwt malformed',
+    status: 400
+  },
+  level: 'error',
+  message: 'jwt malformed',
+  timestamp: '2026-04-14T23:30:51.387Z'
+}
